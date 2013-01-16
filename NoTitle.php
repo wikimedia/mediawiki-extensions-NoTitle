@@ -1,9 +1,10 @@
 <?php
 /*
  *  NoTitle
- *  <insert a short description here>
+ *  Adds a magic word that lets you hide the main title heading
  *
  * @file NoTitle.php
+ * @author Carlo Cabanilla
  * @author Tony Boyles
  */
  
@@ -24,8 +25,8 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'NoTitle',
 	'version'        => '0.1.0',
-	'author'         => array( '[http://milcord.com/ Tony Boyles]' ),
-	'url'            => 'http://milcord.com/',
+	'author'         => array( 'Carlo Cabanilla','[http://milcord.com/ Tony Boyles, Milcord LLC]' ),
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:NoTitle',
 	'descriptionmsg' => 'notitle-desc',
 );
 
