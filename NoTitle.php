@@ -1,7 +1,7 @@
 <?php
 /*
  *  NoTitle
- *  Adds a magic word that lets you hide the main title heading
+ *  Adds a magic word that hides the main title heading in a page
  *
  * @file NoTitle.php
  * @author Carlo Cabanilla
@@ -13,12 +13,12 @@ if (!defined('MEDIAWIKI')) {
 }
 
 # File inclusion and registration:
-require('NoTitle.body.php');
+$wgAutoloadClasses['NoTitle'] = __DIR__."/NoTitle.body.php";
 $wgExtensionMessagesFiles[ 'NoTitle' ] = __DIR__.'/NoTitle.i18n.php';
+$wgExtensionMessagesFiles[ 'NoTitleMagic' ] = __DIR__.'/NoTitle.i18n.magic.php';
 
 # Hook our events:
-$wgHooks['LanguageGetMagic'][] = 'NoTitle::addMagicWordLanguage';
-$wgHooks['ParserBeforeTidy'][] = 'NoTitle::checkForMagicWord';
+$wgHooks['ParserBeforeTidy'][] = 'NoTitle::killTitle';
 
 # Extension Registration:
 $wgExtensionCredits['parserhook'][] = array(

@@ -1,9 +1,9 @@
 <?php
 /*
  *  NoTitle
- *  <insert a short description here>
+ *  Adds a magic word that hides the main title heading in a page
  *
- * @file NoTitle.php
+ * @file NoTitle.i18n.php
  * @author Tony Boyles
  */
  
