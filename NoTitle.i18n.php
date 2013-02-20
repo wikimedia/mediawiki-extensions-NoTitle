@@ -31,6 +31,13 @@ $messages['de'] = array(
 	'notitle-desc' => 'Ergänzt ein magisches Wort zum Verstecken der Titelüberschrift',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'notitle-desc' => 'Pśidawa magiske słowo, aby se nadpismo titela schowało',
+);
+
 /** French (français)
  * @author Gomoko
  */
@@ -43,6 +50,13 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'notitle-desc' => 'Engade unha palabra máxica para agochar a cabeceira do título',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'notitle-desc' => 'Přidawa magiske słowo, zo by so nadpismo titula schowało',
 );
 
 /** Italian (italiano)
@@ -71,4 +85,11 @@ $messages['mk'] = array(
  */
 $messages['roa-tara'] = array(
 	'notitle-desc' => "Aggiunge 'na parola maggeche pe sconnere 'u titole de testate",
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'notitle-desc' => '增加一个用以隐藏页面开头标题的魔术字',
 );
