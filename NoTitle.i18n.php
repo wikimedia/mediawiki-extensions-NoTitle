@@ -94,11 +94,25 @@ $messages['mk'] = array(
 	'notitle-desc' => 'Додава волшебен збор за скривање на наслов во заглавието',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'notitle-desc' => 'Voegt een magisch woord toe om de paginanaam te verbergen',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'notitle-desc' => "Aggiunge 'na parola maggeche pe sconnere 'u titole de testate",
+);
+
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'notitle-desc' => 'Додає магічне слово, що приховує заголовок',
 );
 
 /** Simplified Chinese (中文（简体）‎)
