@@ -24,6 +24,13 @@ $messages['qqq'] = array(
 	'notitle-desc' => '{{desc|name=No Title|url=http://www.mediawiki.org/wiki/Extension:NoTitle}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'notitle-desc' => "Amiesta una pallabra máxica p'anubrir la testera del títulu",
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
