@@ -24,6 +24,13 @@ $messages['qqq'] = array(
 	'notitle-desc' => '{{desc|name=No Title|url=http://www.mediawiki.org/wiki/Extension:NoTitle}}',
 );
 
+/** Arabic (العربية)
+ * @author Mido
+ */
+$messages['ar'] = array(
+	'notitle-desc' => 'يضيف كلمة سحرية لاخفاء العنوان الرئيسي',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
