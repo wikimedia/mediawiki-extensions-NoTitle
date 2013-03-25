@@ -122,6 +122,13 @@ $messages['roa-tara'] = array(
 	'notitle-desc' => "Aggiunge 'na parola maggeche pe sconnere 'u titole de testate",
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'notitle-desc' => 'Nagdaragdag ng isang salitang mahiwaga upang maitago ang paulong pamagat',
+);
+
 /** Ukrainian (українська)
  * @author Base
  */
