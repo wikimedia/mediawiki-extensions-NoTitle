@@ -91,7 +91,7 @@ $messages['ja'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'notitle-desc' => '제목 머리글을 숨기는 매직 워드를 추가합니다',
+	'notitle-desc' => '제목 머리글을 숨기는 특수 명령을 추가합니다',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
