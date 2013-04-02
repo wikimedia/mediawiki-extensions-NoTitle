@@ -40,9 +40,10 @@ $messages['ast'] = array(
 
 /** German (Deutsch)
  * @author Metalhead64
+ * @author Purodha
  */
 $messages['de'] = array(
-	'notitle-desc' => 'Ergänzt ein magisches Wort zum Verstecken der Titelüberschrift',
+	'notitle-desc' => 'Fügt ein magisches Wort zum Verstecken der Titelüberschrift zum Wiki hinzu',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -92,6 +93,13 @@ $messages['ja'] = array(
  */
 $messages['ko'] = array(
 	'notitle-desc' => '제목 머리글을 숨기는 특수 명령을 추가합니다',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'notitle-desc' => 'Brängg e Zauberwoot en et Wiki, öm de Övverschreff vun dä Sigg ußzeblände.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
