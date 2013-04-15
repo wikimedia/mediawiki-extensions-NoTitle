@@ -123,6 +123,13 @@ $messages['nl'] = array(
 	'notitle-desc' => 'Voegt een magisch woord toe om de paginanaam te verbergen',
 );
 
+/** Polish (polski)
+ * @author Odie2
+ */
+$messages['pl'] = array(
+	'notitle-desc' => 'Dodaje magiczne słowo, które ukrywa nagłówek tytułowy',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
