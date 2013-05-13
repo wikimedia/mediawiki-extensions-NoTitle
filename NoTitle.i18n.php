@@ -157,3 +157,10 @@ $messages['uk'] = array(
 $messages['zh-hans'] = array(
 	'notitle-desc' => '增加一个用以隐藏页面开头标题的魔术字',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'notitle-desc' => '增加一個用以隱藏頁面開頭標題的魔術字',
+);
