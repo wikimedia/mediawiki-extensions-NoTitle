@@ -123,6 +123,13 @@ $messages['nl'] = array(
 	'notitle-desc' => 'Voegt een magisch woord toe om de paginanaam te verbergen',
 );
 
+/** Punjabi (ਪੰਜਾਬੀ)
+ * @author Babanwalia
+ */
+$messages['pa'] = array(
+	'notitle-desc' => 'ਸਿਰਲੇਖ ਲੁਕਾਉਣ ਲਈ ਇੱਕ ਜਾਦੂਈ ਸ਼ਬਦ ਜੋੜਦਾ ਹੈ',
+);
+
 /** Polish (polski)
  * @author Odie2
  */
