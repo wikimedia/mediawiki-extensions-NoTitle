@@ -144,6 +144,13 @@ $messages['roa-tara'] = array(
 	'notitle-desc' => "Aggiunge 'na parola maggeche pe sconnere 'u titole de testate",
 );
 
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'notitle-desc' => 'Lägger till ett magiskt ord för att dölja titelrubriken',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
