@@ -109,6 +109,13 @@ $messages['lb'] = array(
 	'notitle-desc' => "Setzt e magescht Wuert derbäi fir d'Titeliwwerschrëft ze verstoppen",
 );
 
+/** Literary Chinese (文言)
+ * @author Yanteng3
+ */
+$messages['lzh'] = array(
+	'notitle-desc' => '增以藏頁之題之魔字',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
