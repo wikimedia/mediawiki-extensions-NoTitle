@@ -130,6 +130,13 @@ $messages['nl'] = array(
 	'notitle-desc' => 'Voegt een magisch woord toe om de paginanaam te verbergen',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'notitle-desc' => 'Apond un mot magic per amagar l’entèsta del títol',
+);
+
 /** Punjabi (ਪੰਜਾਬੀ)
  * @author Babanwalia
  */
