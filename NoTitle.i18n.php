@@ -53,6 +53,13 @@ $messages['dsb'] = array(
 	'notitle-desc' => 'Pśidawa magiske słowo, aby se nadpismo titela schowało',
 );
 
+/** Spanish (español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'notitle-desc' => 'Añade una palabra mágica para ocultar el título',
+);
+
 /** French (français)
  * @author Gomoko
  */
