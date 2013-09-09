@@ -158,6 +158,13 @@ $messages['pl'] = array(
 	'notitle-desc' => 'Dodaje magiczne słowo, które ukrywa nagłówek tytułowy',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'notitle-desc' => 'Adiciona uma palavra mágica para ocultar o título',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
