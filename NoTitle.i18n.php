@@ -172,6 +172,13 @@ $messages['roa-tara'] = array(
 	'notitle-desc' => "Aggiunge 'na parola maggeche pe sconnere 'u titole de testate",
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'notitle-desc' => 'Добавляет «волшебное слово», чтобы скрыть заголовок названия',
+);
+
 /** Swedish (svenska)
  * @author WikiPhoenix
  */
