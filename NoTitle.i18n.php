@@ -60,6 +60,13 @@ $messages['es'] = array(
 	'notitle-desc' => 'Añade una palabra mágica para ocultar el título',
 );
 
+/** Finnish (suomi)
+ * @author Pxos
+ */
+$messages['fi'] = array(
+	'notitle-desc' => 'Lisää taikasanan piilottamaan otsikon nimen',
+);
+
 /** French (français)
  * @author Gomoko
  */
