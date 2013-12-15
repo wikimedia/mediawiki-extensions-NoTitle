@@ -118,6 +118,7 @@ $messages['ksh'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'notitle-desc' => "Setzt e magescht Wuert derbäi fir d'Titeliwwerschrëft ze verstoppen",
