@@ -60,6 +60,13 @@ $messages['es'] = array(
 	'notitle-desc' => 'Añade una palabra mágica para ocultar el título',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'notitle-desc' => 'اضافه کردن یک کلمهٔ جادویی برای پنهان کردن سرفصل عنوان',
+);
+
 /** Finnish (suomi)
  * @author Pxos
  */
