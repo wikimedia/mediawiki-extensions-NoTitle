@@ -62,9 +62,10 @@ $messages['es'] = array(
 
 /** Persian (فارسی)
  * @author Armin1392
+ * @author Ebraminio
  */
 $messages['fa'] = array(
-	'notitle-desc' => 'اضافه کردن یک کلمهٔ جادویی برای پنهان کردن سرفصل عنوان',
+	'notitle-desc' => 'اضافه‌کردن یک کلمهٔ جادویی برای پنهان‌کردن سرفصل عنوان',
 );
 
 /** Finnish (suomi)
