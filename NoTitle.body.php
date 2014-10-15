@@ -7,17 +7,17 @@
  * @author Tony Boyles
  */
 
-if (!defined('MEDIAWIKI')) {
-	die('This file is an extension to the <a href=\'http://www.mediawiki.org/\'>MediaWiki Platform</a> and cannot be used standalone.');
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die( 'This file is an extension to the <a href="http://www.mediawiki.org/">MediaWiki platform</a> and cannot be used standalone.' );
 }
 
 class NoTitle {
-	public static function killTitle(&$parser, &$text) {
+	public static function killTitle( &$parser, &$text ) {
 		global $wgOut;
-		$mw = MagicWord::get('MAG_NOTITLE');
-		if ($mw -> matchAndRemove($text)) {
-			$wgOut -> addInlineStyle('.firstHeading, .subtitle, #siteSub, #contentSub, .pagetitle { display:none; }');
+		$mw = MagicWord::get( 'MAG_NOTITLE' );
+		if ( $mw->matchAndRemove( $text ) ) {
+			$wgOut->addInlineStyle( '.firstHeading, .subtitle, #siteSub, #contentSub, .pagetitle { display: none; }' );
 		}
-		return True;
+		return true;
 	}
 }

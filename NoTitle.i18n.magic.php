@@ -10,9 +10,9 @@
 
 $magicWords = array();
 
-/**English
+/** English
  * @author AABoyles
  */
 $magicWords['en'] = array(
-	'MAG_NOTITLE' => array(0, '__NOTITLE__')
+	'MAG_NOTITLE' => array( 0, '__NOTITLE__' )
 );
