@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Shirayuki",
-			"Tony Boyles"
+			"Tony Boyles",
+			"Umherirrender"
 		]
 	},
-	"notitle-desc": "{{desc|name=No Title|url=http://www.mediawiki.org/wiki/Extension:NoTitle}}"
+	"notitle-desc": "{{desc|name=No Title|url=https://www.mediawiki.org/wiki/Extension:NoTitle}}"
 }
