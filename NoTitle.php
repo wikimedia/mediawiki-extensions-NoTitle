@@ -9,7 +9,7 @@
  */
 
 if ( !defined( 'MEDIAWIKI' ) ) {
-	die( 'This file is an extension to the <a href="http://www.mediawiki.org/">MediaWiki platform</a> and cannot be used standalone.' );
+	die( 'This file is an extension to the <a href="https://www.mediawiki.org/">MediaWiki platform</a> and cannot be used standalone.' );
 }
 
 # File inclusion and registration:
@@ -26,8 +26,12 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'NoTitle',
 	'version'        => '0.2.0',
-	'author'         => array( 'Carlo Cabanilla', '[http://milcord.com/ Tony Boyles, Milcord LLC]' ),
+	'author'         => array(
+		'Carlo Cabanilla',
+		'[http://milcord.com/ Tony Boyles, Milcord LLC]'
+	),
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:NoTitle',
 	'descriptionmsg' => 'notitle-desc',
+	'license-name'   => 'GPL-3.0+'
 );
 
