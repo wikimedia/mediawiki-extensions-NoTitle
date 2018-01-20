@@ -1,0 +1,28 @@
+{
+	"name": "NoTitle",
+	"version": "0.3.0",
+	"author": [
+		"Carlo Cabanilla",
+		"Tony Boyles",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NoTitle",
+	"descriptionmsg": "notitle-desc",
+	"license-name": "GPL-3.0+",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"NoTitle": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"NoTitleMagic": "NoTitle.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"NoTitle": "NoTitle.body.php"
+	},
+	"Hooks": {
+		"ParserBeforeTidy": "NoTitle::killTitle"
+	},
+	"manifest_version": 2
+}
