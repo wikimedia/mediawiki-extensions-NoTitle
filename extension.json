@@ -1,6 +1,6 @@
 {
 	"name": "NoTitle",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"author": [
 		"Carlo Cabanilla",
 		"Tony Boyles",
@@ -25,7 +25,18 @@
 		"NoTitle": "NoTitle.body.php"
 	},
 	"Hooks": {
-		"ParserBeforeTidy": "NoTitle::killTitle"
+		"ParserBeforeTidy": "NoTitle::onParserBeforeTidy"
+	},
+	"ResourceModules": {
+		"ext.NoTitle": {
+			"styles": [
+				"ext.NoTitle.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "NoTitle/resources"
 	},
 	"manifest_version": 2
 }

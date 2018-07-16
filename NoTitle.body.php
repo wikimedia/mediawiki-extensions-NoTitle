@@ -12,12 +12,15 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 class NoTitle {
-	public static function killTitle( &$parser, &$text ) {
-		global $wgOut;
+
+	/**
+	 * @param Parser $parser
+	 * @param string &$text
+	 */
+	public static function onParserBeforeTidy( Parser $parser, &$text ) {
 		$mw = MagicWord::get( 'MAG_NOTITLE' );
 		if ( $mw->matchAndRemove( $text ) ) {
-			$wgOut->addInlineStyle( '.firstHeading, .subtitle, #siteSub, #contentSub, .pagetitle { display: none; }' );
+			$parser->getOutput()->addModuleStyles( 'ext.NoTitle' );
 		}
-		return true;
 	}
 }
