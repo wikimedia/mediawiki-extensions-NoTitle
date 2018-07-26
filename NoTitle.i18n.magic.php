@@ -8,11 +8,11 @@
  */
 
 
-$magicWords = array();
+$magicWords = [];
 
 /** English
  * @author AABoyles
  */
-$magicWords['en'] = array(
-	'notitle' => array( 1, '__NOTITLE__' )
-);
+$magicWords['en'] = [
+	'notitle' => [ 1, '__NOTITLE__' ]
+];
