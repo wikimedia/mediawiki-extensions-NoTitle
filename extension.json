@@ -23,7 +23,7 @@
 		"NoTitleMagic": "NoTitle.i18n.magic.php"
 	},
 	"AutoloadClasses": {
-		"NoTitle": "NoTitle.body.php"
+		"NoTitle": "includes/NoTitle.php"
 	},
 	"Hooks": {
 		"GetDoubleUnderscoreIDs": "NoTitle::onGetDoubleUnderscoreIDs",

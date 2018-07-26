@@ -3,7 +3,7 @@
  *  NoTitle
  *  Adds a magic word that hides the main title heading in a page
  *
- * @file NoTitle.body.php
+ * @file
  * @author Tony Boyles
  */
 
