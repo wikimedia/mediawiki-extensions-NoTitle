@@ -7,10 +7,6 @@
  * @author Tony Boyles
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( 'This file is an extension to the <a href="http://www.mediawiki.org/">MediaWiki platform</a> and cannot be used standalone.' );
-}
-
 class NoTitle {
 
 	/**
