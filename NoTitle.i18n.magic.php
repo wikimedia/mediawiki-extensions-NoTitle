@@ -7,7 +7,6 @@
  * @author Tony Boyles
  */
 
-
 $magicWords = [];
 
 /** English
