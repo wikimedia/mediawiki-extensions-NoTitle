@@ -14,5 +14,5 @@ $magicWords = array();
  * @author AABoyles
  */
 $magicWords['en'] = array(
-	'MAG_NOTITLE' => array( 0, '__NOTITLE__' )
+	'notitle' => array( 1, '__NOTITLE__' )
 );

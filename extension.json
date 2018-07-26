@@ -4,6 +4,7 @@
 	"author": [
 		"Carlo Cabanilla",
 		"Tony Boyles",
+		"Kunal Mehta",
 		"..."
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:NoTitle",
@@ -25,7 +26,8 @@
 		"NoTitle": "NoTitle.body.php"
 	},
 	"Hooks": {
-		"ParserBeforeTidy": "NoTitle::onParserBeforeTidy"
+		"GetDoubleUnderscoreIDs": "NoTitle::onGetDoubleUnderscoreIDs",
+		"OutputPageParserOutput": "NoTitle::onOutputPageParserOutput"
 	},
 	"ResourceModules": {
 		"ext.NoTitle": {

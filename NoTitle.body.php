@@ -14,13 +14,19 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 class NoTitle {
 
 	/**
-	 * @param Parser $parser
-	 * @param string &$text
+	 * @param array &$doubleUnderscoreIDs
 	 */
-	public static function onParserBeforeTidy( Parser $parser, &$text ) {
-		$mw = MagicWord::get( 'MAG_NOTITLE' );
-		if ( $mw->matchAndRemove( $text ) ) {
-			$parser->getOutput()->addModuleStyles( 'ext.NoTitle' );
+	public static function onGetDoubleUnderscoreIDs( &$doubleUnderscoreIDs ) {
+		$doubleUnderscoreIDs[] = 'notitle';
+	}
+
+	/**
+	 * @param OutputPage $out
+	 * @param ParserOutput $pOut
+	 */
+	public static function onOutputPageParserOutput( OutputPage $out, ParserOutput $pOut ) {
+		if ( $pOut->getProperty( 'notitle' ) !== false ) {
+			$out->addModuleStyles( 'ext.NoTitle' );
 		}
 	}
 }
