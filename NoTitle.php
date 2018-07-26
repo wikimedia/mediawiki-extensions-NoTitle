@@ -18,7 +18,7 @@
  * @license https://www.gnu.org/licenses/gpl-3.0.en.html GNU General Public License 3.0 or later
  */
 
- if ( function_exists( 'wfLoadExtension' ) ) {
+if ( function_exists( 'wfLoadExtension' ) ) {
 	wfLoadExtension( 'NoTitle' );
 	// Keep i18n globals so mergeMessageFileList.php doesn't break
 	$wgMessagesDirs['NoTitle'] = __DIR__ . '/i18n';
