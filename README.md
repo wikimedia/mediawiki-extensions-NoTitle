@@ -19,7 +19,7 @@ Installation
 Download the extension and save the files in a folder named NoTitle under your
 extensions folder. Then add the following line to your LocalSettings.php:
 
-    require_once("$IP/extensions/NoTitle/NoTitle.php");
+    wfLoadExtension( 'NoTitle' );
 
 
 Problems
