@@ -23,7 +23,8 @@ class NoTitle {
 	public static function onOutputPageParserOutput( OutputPage $out, ParserOutput $pOut ) {
 		if ( method_exists( $pOut, 'getPageProperty' ) ) {
 			// MW 1.38+
-			if ( $pOut->getPageProperty( 'notitle' ) !== false ) {
+			// T301915
+			if ( ( $pOut->getPageProperty( 'notitle' ) ?? false ) !== false ) {
 				$out->addModuleStyles( 'ext.NoTitle' );
 			}
 		} else {
