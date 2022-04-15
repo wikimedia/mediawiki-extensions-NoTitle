@@ -1,4 +1,5 @@
 {
+	"name": "NoTitle",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
