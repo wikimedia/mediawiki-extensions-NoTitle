@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Thibaut120094"
 		]
 	},
-	"notitle-desc": "Ajoute un mot magique pour masquer l’en-tête du titre"
+	"notitle-desc": "Ajoute un mot magique pour masquer le titre de la page"
 }
