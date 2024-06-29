@@ -15,3 +15,8 @@ $magicWords = [];
 $magicWords['en'] = [
 	'notitle' => [ 1, '__NOTITLE__' ]
 ];
+
+/** Simplified Chinese (中文（简体）) */
+$magicWords['zh-hans'] = [
+	'notitle' => [ 1, '__无标题__' ]
+];
