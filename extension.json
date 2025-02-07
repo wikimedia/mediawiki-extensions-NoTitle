@@ -32,7 +32,7 @@
 	"ResourceModules": {
 		"ext.NoTitle": {
 			"styles": [
-				"ext.NoTitle.css"
+				"ext.NoTitle.less"
 			]
 		}
 	},
